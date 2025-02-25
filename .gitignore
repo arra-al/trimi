@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# build and .cache
+build/
+.cache/
+
+
+# backup buffers
+*~
+.#*
+\#*#
