@@ -69,7 +69,7 @@ void Game::Play() {
     int centerY = static_cast<int>(randYPosition(generator));
     coordinator.AddComponent(entity, CircleComponent{.centerX = centerX,
                                                      .centerY = centerY,
-                                                     .radius = 16,
+                                                     .radius = 8.0f,
                                                      .color = RED});
     coordinator.AddComponent(
         entity, RigidBody{.velocity = Vector3{0.0f, 0.0f, 0.0f},
@@ -93,7 +93,7 @@ void Game::Play() {
     EndDrawing();
   }
 
-  CloseWindow();
+  // CloseWindow();
 };
 
 void Game::Update() {

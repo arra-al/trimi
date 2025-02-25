@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.20)
 project(trimi)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -13,11 +13,11 @@ file(GLOB_RECURSE src_files ${SRC_DIR}/*.cpp)
 
 include_directories(${INCLUDE_DIR})
 
-message(STATUS "current src dir" ${CMAKE_CURRENT_SOURCE_DIR})
-message(STATUS "src dir" ${CMAKE_SOURCE_DIR})
+# message(STATUS "current src dir" ${CMAKE_CURRENT_SOURCE_DIR})
+# message(STATUS "src dir" ${CMAKE_SOURCE_DIR})
 
-message(STATUS "header files: " ${header_files})
-message(STATUS "src files: " ${src_files})
+# message(STATUS "header files: " ${header_files})
+# message(STATUS "src files: " ${src_files})
 
 
 add_library(game ${src_files} ${header_files})
