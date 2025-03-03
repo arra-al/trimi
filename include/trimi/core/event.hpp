@@ -1,6 +1,6 @@
 #pragma once
 
-#include "trimi/core.hpp"
+#include "trimi/core/core.hpp"
 #include <any>
 #include <unordered_map>
 

@@ -1,7 +1,5 @@
 #pragma once
 
-#include "trimi/coordinator.hpp"
-#include <string>
 namespace arra {
 class Game {
 public:

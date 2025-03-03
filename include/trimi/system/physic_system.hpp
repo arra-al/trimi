@@ -1,6 +1,6 @@
 #pragma once
 
-#include "trimi/system.hpp"
+#include "trimi/core/system.hpp"
 
 namespace arra {
 class PhysicsSystem : public System

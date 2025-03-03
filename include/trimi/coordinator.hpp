@@ -1,10 +1,10 @@
 #pragma once
 
-#include "component_manager.hpp"
-#include "entity_manager.hpp"
-#include "event_manager.hpp"
-#include "system_manager.hpp"
-#include "core.hpp"
+#include "core/component_manager.hpp"
+#include "core/entity_manager.hpp"
+#include "core/event_manager.hpp"
+#include "core/system_manager.hpp"
+#include "core/core.hpp"
 #include <memory>
 
 namespace arra {
