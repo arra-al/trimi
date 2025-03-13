@@ -14,7 +14,7 @@ project(
     DESCRIPTION "Simple 2D game using raylib"
     LANGUAGES CXX C)
 
-
+include(cmake/Dependencies.cmake)
 
 add_subdirectory(src)
 add_subdirectory(app)
